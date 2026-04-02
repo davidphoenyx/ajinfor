@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>AJ INFOR | Suporte de TI e Manutenção de Computadores em Fortaleza</title>
+    <meta name="description" content="AJ INFOR: Especialista em suporte técnico de TI, infraestrutura e manutenção de computadores em Fortaleza. Atendimento humanizado com as melhores notas no Google.">
+    <meta name="keywords" content="TI Fortaleza, Suporte técnico informática, Manutenção de computadores Ceará, AJ INFOR, Infraestrutura de rede">
+    <meta name="author" content="AJ INFOR">
+    <link rel="canonical" href="https://ajinfor.com.br">
+
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="AJ INFOR - Sua tecnologia em boas mãos">
+    <meta property="og:description" content="Suporte especializado e assistência técnica em Fortaleza. Confira nossas avaliações!">
+    <meta property="og:image" content="foto.png">
+    <meta property="og:url" content="https://ajinfor.com.br">
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      "name": "AJ INFOR",
+      "image": "foto.png",
+      "@id": "",
+      "url": "https://ajinfor.com.br",
+      "telephone": "+5585986126928",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "",
+        "addressLocality": "Fortaleza",
+        "addressRegion": "CE",
+        "addressCountry": "BR"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": -3.7319,
+        "longitude": -38.5267
+      },
+      "openingHoursSpecification": {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": [
+          "Monday", "Tuesday", "Wednesday", "Thursday", "Friday"
+        ],
+        "opens": "08:00",
+        "closes": "18:00"
+      },
+      "sameAs": [
+        "https://www.instagram.com/aj_infor.ce"
+      ]
+    }
+    </script>
+
+    <link href="https://fonts.googleapis.com/css2?family=Audiowide&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    
+    <style>
+        :root {
+            --primary-color: #28a745;
+            --primary-hover: #218838;
+            --dark-bg: #1a1a1a;
+            --light-bg: #f4f4f4;
+            --text-dark: #333;
+            --text-light: #fff;
+        }
+
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        html { scroll-behavior: smooth; }
+        body { font-family: 'Poppins', sans-serif; line-height: 1.6; background-color: var(--light-bg); color: var(--text-dark); }
+        .tech-font { font-family: 'Audiowide', cursive; letter-spacing: 1px; }
+
+        /* NAVBAR */
+        header { width: 100%; position: fixed; top: 0; z-index: 1000; }
+        .navbar { display: flex; justify-content: space-between; align-items: center; background-color: rgba(26, 26, 26, 0.95); color: var(--text-light); padding: 1rem 5%; backdrop-filter: blur(5px); }
+        .logo h2 { color: var(--primary-color); font-size: 1.5rem; }
+        .nav-links { display: flex; list-style: none; }
+        .nav-links li { padding: 0 15px; }
+        .nav-links a { color: var(--text-light); text-decoration: none; font-weight: 400; transition: color 0.3s; }
+        .nav-links a:hover { color: var(--primary-color); }
+        .menu-toggle { display: none; cursor: pointer; flex-direction: column; }
+        .bar { width: 25px; height: 3px; background-color: var(--text-light); margin: 4px 0; transition: 0.4s; }
+
+        /* HERO */
+        .hero-section { position: relative; height: 100vh; display: flex; align-items: center; justify-content: center; overflow: hidden; color: var(--text-light); text-align: center; }
+        .video-container { position: absolute; top: 0; left: 0; width: 100%; height: 100%; z-index: -1; }
+        #bg-video { width: 100%; height: 100%; object-fit: cover; }
+        .hero-overlay { position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0, 0, 0, 0.7); display: flex; align-items: center; justify-content: center; padding: 0 20px; }
+        .hero-content h1 { font-size: clamp(2rem, 5vw, 3.5rem); margin-bottom: 1.5rem; text-transform: uppercase; }
+        .hero-content p { font-size: 1.2rem; max-width: 700px; margin: 0 auto 2rem; font-weight: 300; }
+        .badges { margin-bottom: 2.5rem; }
+        .badge-google, .badge-quality { background: #4285F4; padding: 8px 20px; border-radius: 50px; font-size: 0.85rem; margin: 5px; display: inline-block; }
+        .badge-quality { background: var(--primary-color); }
+        .cta-button { display: inline-block; padding: 18px 35px; background-color: var(--primary-color); color: var(--text-light); text-decoration: none; border-radius: 50px; font-weight: bold; transition: all 0.3s ease; }
+        .cta-button:hover { background-color: var(--primary-hover); transform: translateY(-3px); box-shadow: 0 10px 20px rgba(40, 167, 69, 0.3); }
+
+        /* SOBRE */
+        .about-section { padding: 100px 5%; background-color: #fff; }
+        .about-container { max-width: 1100px; margin: 0 auto; display: flex; align-items: center; gap: 60px; flex-wrap: wrap; }
+        .about-image { flex: 1; min-width: 300px; position: relative; }
+        .about-image img { width: 100%; border-radius: 20px; box-shadow: 15px 15px 0px var(--light-bg); }
+        .experience-badge { position: absolute; bottom: -15px; right: -10px; background: var(--primary-color); color: var(--text-light); padding: 15px 25px; border-radius: 12px; font-weight: bold; }
+        .about-text { flex: 1.2; min-width: 300px; }
+        .about-text span { color: var(--primary-color); font-weight: 600; text-transform: uppercase; }
+        .about-text h2 { font-size: 2.5rem; margin: 10px 0 20px; line-height: 1.2; }
+        .features-list { list-style: none; margin-top: 25px; }
+        .features-list li { margin-bottom: 12px; display: flex; align-items: center; gap: 10px; }
+
+        /* CONTATO - AJUSTADO PARA CENTRALIZAÇÃO */
+        .contact-section { padding: 100px 5%; background-color: var(--light-bg); text-align: center; }
+        .contact-header span { color: var(--primary-color); font-weight: 600; }
+        .contact-header h2 { font-size: 2.2rem; margin: 10px 0 20px; }
+        .contact-content { margin-top: 50px; display: flex; flex-direction: column; align-items: center; gap: 30px; }
+        
+        .btn-whatsapp { 
+            display: flex; 
+            justify-content: center; 
+            align-items: center; 
+            background-color: #25D366; 
+            color: white; 
+            padding: 18px 45px; 
+            border-radius: 50px; 
+            text-decoration: none; 
+            transition: all 0.3s; 
+            animation: pulse-green 2s infinite; 
+            min-width: 280px;
+        }
+        
+        .btn-whatsapp:hover { transform: scale(1.05); background-color: #1ebe57; }
+
+        .btn-inner {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            line-height: 1.2;
+        }
+
+        .btn-inner small { font-size: 0.8rem; text-transform: uppercase; }
+        .btn-inner strong { font-size: 1.3rem; letter-spacing: 0.5px; }
+
+        .social-links { display: flex; gap: 40px; margin-top: 20px; }
+        .social-item { text-decoration: none; color: var(--text-dark); font-weight: 500; display: flex; align-items: center; gap: 8px; }
+
+        @keyframes pulse-green {
+            0% { box-shadow: 0 0 0 0 rgba(37, 211, 102, 0.7); }
+            70% { box-shadow: 0 0 0 15px rgba(37, 211, 102, 0); }
+            100% { box-shadow: 0 0 0 0 rgba(37, 211, 102, 0); }
+        }
+
+        /* FOOTER */
+        footer { background-color: var(--dark-bg); color: #999; padding: 80px 5% 30px; }
+        .footer-container { max-width: 1100px; margin: 0 auto; display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 50px; border-bottom: 1px solid #333; padding-bottom: 50px; }
+        .footer-col h3 { color: var(--primary-color); margin-bottom: 20px; }
+        .footer-col h4 { color: #fff; margin-bottom: 20px; }
+        .footer-col ul { list-style: none; }
+        .footer-col ul li { margin-bottom: 12px; }
+        .footer-col ul li a { color: #999; text-decoration: none; }
+        .footer-bottom { text-align: center; padding-top: 40px; font-size: 0.8rem; }
+
+        @media screen and (max-width: 768px) {
+            .nav-links { display: none; flex-direction: column; position: absolute; top: 100%; left: 0; width: 100%; background-color: var(--dark-bg); padding: 20px 0; }
+            .nav-links.active { display: flex; }
+            .nav-links li { padding: 15px 0; text-align: center; }
+            .menu-toggle { display: flex; }
+            .about-container { flex-direction: column; text-align: center; }
+            .social-links { flex-direction: column; gap: 20px; }
+        }
+    </style>
+</head>
+<body>
+    
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <h2 class="tech-font">AJ INFOR</h2>
+            </div>
+            <div class="menu-toggle" id="mobile-menu" aria-label="Abrir Menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#">Início</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero-section">
+            <div class="video-container">
+                <video autoplay muted loop playsinline id="bg-video">
+                    <source src="video.mp4" type="video/mp4">
+                </video>
+            </div>
+            <div class="hero-overlay">
+                <div class="hero-content">
+                    <h1 class="tech-font">Seu equipamento em boas mãos</h1>
+                    <p>Seja cliente da <strong>AJ INFOR</strong>. Oferecemos suporte especializado com o atendimento mais humanizado de Fortaleza.</p>
+                    <div class="badges">
+                        <span class="badge-google">⭐ Altas notas no Google</span>
+                        <span class="badge-quality">✅ Qualidade Premium</span>
+                    </div>
+                    <a href="#contato" class="cta-button">Falar com Especialista</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="sobre" class="about-section">
+            <div class="about-container">
+                <div class="about-image">
+                    <img src="foto.png" alt="Técnico da AJ INFOR em Fortaleza especializado em TI">
+                    <div class="experience-badge">
+                        <span>Suporte Especializado</span>
+                    </div>
+                </div>
+                <div class="about-text">
+                    <span>Quem Somos</span>
+                    <h2>Especialistas em Suporte de Computadores em Fortaleza</h2>
+                    <p>A <strong>AJ INFOR</strong> é referência em simplificar a tecnologia para você e sua empresa. Localizada em Fortaleza, nossa missão é oferecer agilidade e transparência em cada chamado.</p>
+                    <p>Garantimos que sua infraestrutura digital funcione perfeitamente, permitindo que você foque no que é importante.</p>
+                    <ul class="features-list">
+                        <li>✅ Atendimento Humanizado</li>
+                        <li>✅ Soluções Personalizadas</li>
+                        <li>✅ Respostas Rápidas</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="contato" class="contact-section">
+            <div class="contact-container">
+                <div class="contact-header">
+                    <span>Fale Conosco</span>
+                    <h2>Precisa de suporte técnico agora?</h2>
+                    <p>Escolha o canal de sua preferência. Atendimento imediato via WhatsApp.</p>
+                </div>
+                <div class="contact-content">
+                    <div class="whatsapp-card">
+                        <a href="https://wa.me/5585986126928" target="_blank" class="btn-whatsapp" aria-label="Chamar AJ INFOR no WhatsApp">
+                            <div class="btn-inner">
+                                <small>Chamar no WhatsApp</small>
+                                <strong>(85) 98612-6928</strong>
+                            </div>
+                        </a>
+                        <p class="status-online" style="color: #25D366; margin-top: 15px; font-weight: bold;">● Atendimento disponível em Fortaleza</p>
+                    </div>
+                    <div class="social-links">
+                        <a href="https://www.instagram.com/aj_infor.ce" target="_blank" class="social-item">
+                            <span>📸 Instagram: @aj_infor.ce</span>
+                        </a>
+                        <div class="social-item">
+                            <span>📍 Atendimento em Fortaleza - CE</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-col">
+                <h3 class="tech-font">AJ INFOR</h3>
+                <p>O melhor custo-benefício em suporte de TI e manutenção de computadores.</p>
+            </div>
+            <div class="footer-col">
+                <nav>
+                    <h4>Navegação</h4>
+                    <ul>
+                        <li><a href="#">Início</a></li>
+                        <li><a href="#sobre">Sobre Nós</a></li>
+                        <li><a href="#contato">Contato</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="footer-col">
+                <h4>Contato</h4>
+                <p>📍 Fortaleza, Ceará</p>
+                <p>📞 (85) 98612-6928</p>
+                <p>📧 contato@ajinfor.com.br</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 AJ INFOR - Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <script>
+        const menu = document.querySelector('#mobile-menu');
+        const menuLinks = document.querySelector('.nav-links');
+        const navLinksArr = document.querySelectorAll('.nav-links a');
+
+        menu.addEventListener('click', () => {
+            menuLinks.classList.toggle('active');
+        });
+
+        navLinksArr.forEach(link => {
+            link.addEventListener('click', () => {
+                menuLinks.classList.remove('active');
+            });
+        });
+    </script>
+</body>
+</html>
